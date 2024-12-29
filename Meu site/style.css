@@ -1,0 +1,62 @@
+.hero {
+    background: linear-gradient(135deg, #fa0202, #000000);
+    color: #f1eded;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+
+/* Cards no carrossel */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgb(240, 238, 238);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+
+/* Módulo carrossel */
+.carousel-control-prev, .carousel-control-next {
+    color: #ff0000;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #ff0000;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .card-title {
+        font-size: 1.125rem;
+    }
+
+    .card-text {
+        font-size: 0.875rem;
+    }
+}
+
